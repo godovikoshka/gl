@@ -102,6 +102,6 @@ class TestListMethods(unittest.TestCase):
         list = ['a', 'k', 'j', 'y', 'r', 'o']
         self.assertEqual(del_third_element(list), ['a', 'k', 'y', 'r', 'o'])
 
-        
+
 if __name__ == '__main__':
     unittest.main()
